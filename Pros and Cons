@@ -1,5 +1,6 @@
 SQLITE Database
 Pros and Cons
+
 Pros:
 Full control of the database schema, allows the developer and team to define custom database schema and create queries for speicidic use cases for their project/assingment.
 SQLite is lightweight and optimized for performance and reliability
@@ -22,13 +23,14 @@ Lack of encryption
 Not as secured 
 No querying or indexing
 
-
 Cloud Storage
-Pros:
+Pros
 Scalability and flexibility is probably the greatest among the options here
 Backup and recovery is good because of the cloud storage
 Global availability, because it is on the cloud
-Cons:
+Cons
 Needs network connectivity to work
 Cost considerations
 Vendor demands may cause you to have to work under their guideline in order to use there storage.
+
+For my project I have decided to go with theuser defaults mainly because I am currently only dealing with a small amount of data that doesn’t have to be extremely secure. It being able to use just a key value storage system works very well for this case.
